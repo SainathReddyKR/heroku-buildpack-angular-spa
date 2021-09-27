@@ -49,7 +49,7 @@ fi
 
 # Download node from Heroku's S3 mirror of nodejs.org/dist
 status "Downloading and installing node"
-node_url="https://github.com/heroku/heroku-buildpack-nodejs#v188"
+node_url="https://github.com/"
 curl $node_url -s -o - | tar xzf - -C $build_dir
 node -v
 
